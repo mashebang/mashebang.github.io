@@ -1,0 +1,122 @@
+:root {
+  --global-font-size: 15px;
+  --global-line-height: 1.4em;
+  --global-space: 10px;
+  --font-stack: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
+  --mono-font-stack: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
+  --background-color: #222225;
+  --page-width: 60em;
+  --font-color: #e8e9ed;
+  --invert-font-color: #222225;
+  --secondary-color: #a3abba;
+  --tertiary-color: #a3abba;
+  --primary-color: #62c4ff;
+  --error-color: #ff3c74;
+  --progress-bar-background: #3f3f44;
+  --progress-bar-fill: #62c4ff;
+  --code-bg-color: #3f3f44;
+  --input-style: solid;
+}
+
+@font-face {
+  font-family: 'unbutton';
+  src:  url('assets/unbutton.ttf') format('truetype');
+}
+
+.terminal-menu ul {
+  justify-content: center;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'unbutton';
+}
+
+.title {
+  font-size: 48px;
+  text-align: center;
+  display: block;
+}
+
+.title svg {
+  width: 20px;
+  height: 20px;
+}
+
+.content {
+  margin: 0 auto;
+}
+
+.content-section a, #gists {
+  display: block;
+  text-align: center;
+}
+
+.terminal-card header {
+  font-family: Courier;
+}
+
+.content .terminal-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 30px;
+}
+
+.content-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.content-section#gists {
+  flex-direction: column;
+}
+
+#github-projects .terminal-card {
+  max-width: 200px;
+  margin: 10px;
+}
+
+#github-projects .terminal-card a {
+  bottom: 0px;
+  display: block;
+  position: absolute;
+  width: 100%;
+}
+
+#gists h1 {
+  display: block;
+}
+
+#post {
+  max-width: 800px;
+  margin: 0 auto;
+  padding-bottom: 50px;
+}
+
+.footer {
+  padding: 50px;
+  display: flex;
+  align-items: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.avatar {
+  width: 500px;
+  height: auto;
+  border-radius: 50%;
+
+}
+
+.avatar img {
+  width: 100%;
+}
+
+.footer .terminal-card {
+  margin-left: 20px;
+}
+
+.footer .terminal-card .about {
+  padding: 30px;
+}
